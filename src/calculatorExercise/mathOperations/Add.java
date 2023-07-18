@@ -1,7 +1,5 @@
 package calculatorExercise.mathOperations;
 
-import calculatorExercise.IMathOperation;
-
 public class Add implements IMathOperation {
 
     @Override

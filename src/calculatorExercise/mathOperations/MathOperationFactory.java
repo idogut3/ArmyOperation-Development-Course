@@ -1,4 +1,6 @@
-package calculatorExercise;
+package calculatorExercise.mathOperations;
+
+import calculatorExercise.mathOperations.IMathOperation;
 
 import java.util.HashMap;
 
