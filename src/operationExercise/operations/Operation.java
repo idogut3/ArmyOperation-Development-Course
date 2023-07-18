@@ -1,6 +1,6 @@
 package operationExercise.operations;
 
-import operationExercise.soldiers.IAttackAble;
+import operationExercise.soldiers.interfaces.IAttackAble;
 
 import java.util.ArrayList;
 

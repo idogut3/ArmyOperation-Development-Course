@@ -1,4 +1,4 @@
-package operationExercise.soldiers;
+package operationExercise.soldiers.interfaces;
 
 public interface IAttackAble {
     void attack();

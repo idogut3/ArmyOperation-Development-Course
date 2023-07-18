@@ -1,5 +1,7 @@
 package operationExercise.soldiers;
 
+import operationExercise.soldiers.interfaces.IShootAble;
+
 public class CombatSoldier extends Soldier implements IShootAble {
     String gunLicense;
 

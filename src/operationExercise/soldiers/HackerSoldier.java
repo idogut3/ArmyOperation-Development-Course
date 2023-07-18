@@ -1,5 +1,7 @@
 package operationExercise.soldiers;
 
+import operationExercise.soldiers.interfaces.IAttackAble;
+
 public class HackerSoldier extends Soldier implements IAttackAble {
 
     public HackerSoldier(String name, int age) {

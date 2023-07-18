@@ -1,6 +1,6 @@
 package operationExercise;
 
-import operationExercise.soldiers.IAttackAble;
+import operationExercise.soldiers.interfaces.IAttackAble;
 import operationExercise.operations.Operation;
 import operationExercise.soldiers.HackerSoldier;
 import operationExercise.soldiers.ResearchSoldier;
