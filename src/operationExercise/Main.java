@@ -1,12 +1,13 @@
-import operations.Operation;
-import interfaces.IAttackAble;
-import soldiers.CombatSoldier;
-import soldiers.HackerSoldier;
-import soldiers.ResearchSoldier;
+package operationExercise;
+
+import operationExercise.soldiers.IAttackAble;
+import operationExercise.operations.Operation;
+import operationExercise.soldiers.HackerSoldier;
+import operationExercise.soldiers.ResearchSoldier;
+import operationExercise.soldiers.CombatSoldier;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {

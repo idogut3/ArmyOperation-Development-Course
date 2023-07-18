@@ -1,4 +1,4 @@
-package soldiers;
+package operationExercise.soldiers;
 
 public abstract class Soldier {
     String name;

@@ -1,4 +1,6 @@
-package soldiers;
+package operationExercise.soldiers;
+
+import operationExercise.soldiers.Soldier;
 
 public class ResearchSoldier extends Soldier {
     public ResearchSoldier(String name, int age) {

@@ -1,6 +1,4 @@
-package soldiers;
-
-import interfaces.IAttackAble;
+package operationExercise.soldiers;
 
 public class HackerSoldier extends Soldier implements IAttackAble {
 

@@ -1,9 +1,8 @@
-package operations;
+package operationExercise.operations;
 
-import interfaces.IAttackAble;
+import operationExercise.soldiers.IAttackAble;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Operation {
     ArrayList<IAttackAble> soldiers;
