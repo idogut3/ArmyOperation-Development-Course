@@ -5,7 +5,7 @@ import encryption_exercise.encryption_methods.encrypt_interface.IEncryption;
 import java.util.HashMap;
 
 public class EncryptionFactory {
-    private HashMap<String, IEncryption> encryption = new HashMap<String, IEncryption>();
+    HashMap<String, IEncryption> encryption = new HashMap<String, IEncryption>();
 
 
     public IEncryption getEncryption(String encryptionMethodName) {

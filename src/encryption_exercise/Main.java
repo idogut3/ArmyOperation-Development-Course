@@ -25,7 +25,7 @@ public class Main {
         encrypt.addEncryptionMethod("CaesarEncrypt", CaesarEncrypt);
 
         String result = encrypt.encrypt(encryptionMethod, message, key);
-        printResult(result, encryptionMethod , message);
+        printResult(result, encryptionMethod, message);
     }
 
 

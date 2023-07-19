@@ -5,9 +5,10 @@ import encryption_exercise.encryption_methods.encrypt_interface.IEncryption;
 public class CaesarEncrypt implements IEncryption {
     private int key;
 
-    public CaesarEncrypt(int key){
+    public CaesarEncrypt(int key) {
         this.key = key;
     }
+
     public boolean isEncryptingNeeded(String message) {
         return key != 0 && message.length() != 0;
     }
