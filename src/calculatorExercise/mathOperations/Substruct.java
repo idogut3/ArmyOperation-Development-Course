@@ -1,5 +1,7 @@
 package calculatorExercise.mathOperations;
 
+import calculatorExercise.mathOperations.mathOperationInterface.IMathOperation;
+
 public class Substruct implements IMathOperation {
 
     @Override

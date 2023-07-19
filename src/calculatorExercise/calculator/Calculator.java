@@ -1,7 +1,7 @@
 package calculatorExercise.calculator;
 
-import calculatorExercise.mathOperations.IMathOperation;
-import calculatorExercise.mathOperations.MathOperationFactory;
+import calculatorExercise.mathOperations.mathOperationInterface.IMathOperation;
+import calculatorExercise.mathOperations.factory.MathOperationFactory;
 
 public class Calculator {
     private MathOperationFactory mathOperationFactory;
