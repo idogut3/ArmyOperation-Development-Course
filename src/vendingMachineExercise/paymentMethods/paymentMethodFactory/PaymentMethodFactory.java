@@ -1,4 +1,6 @@
-package vendingMachineExercise;
+package vendingMachineExercise.paymentMethods.paymentMethodFactory;
+
+import vendingMachineExercise.paymentMethods.paymentMethodInterface.IPaymentMethod;
 
 import java.util.HashMap;
 

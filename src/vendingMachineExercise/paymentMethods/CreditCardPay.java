@@ -1,4 +1,7 @@
-package vendingMachineExercise;
+package vendingMachineExercise.paymentMethods;
+
+import vendingMachineExercise.objects.Date;
+import vendingMachineExercise.paymentMethods.paymentMethodInterface.IPaymentMethod;
 
 public class CreditCardPay implements IPaymentMethod {
     private String creditCardNumber;

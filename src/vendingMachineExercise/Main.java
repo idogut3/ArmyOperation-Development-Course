@@ -1,5 +1,11 @@
 package vendingMachineExercise;
 
+import vendingMachineExercise.objects.Date;
+import vendingMachineExercise.objects.Item;
+import vendingMachineExercise.objects.paymentPlaces.VendingMachine;
+import vendingMachineExercise.paymentMethods.CashPay;
+import vendingMachineExercise.paymentMethods.CreditCardPay;
+
 import java.util.Scanner;
 
 public class Main {

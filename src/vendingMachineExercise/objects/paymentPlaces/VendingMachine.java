@@ -1,4 +1,8 @@
-package vendingMachineExercise;
+package vendingMachineExercise.objects.paymentPlaces;
+
+import vendingMachineExercise.objects.Item;
+import vendingMachineExercise.paymentMethods.paymentMethodFactory.PaymentMethodFactory;
+import vendingMachineExercise.paymentMethods.paymentMethodInterface.IPaymentMethod;
 
 import java.util.ArrayList;
 

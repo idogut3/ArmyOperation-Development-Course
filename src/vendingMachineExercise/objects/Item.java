@@ -1,4 +1,4 @@
-package vendingMachineExercise;
+package vendingMachineExercise.objects;
 
 public class Item {
     private double price;

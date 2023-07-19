@@ -1,4 +1,6 @@
-package vendingMachineExercise;
+package vendingMachineExercise.paymentMethods;
+
+import vendingMachineExercise.paymentMethods.paymentMethodInterface.IPaymentMethod;
 
 public class CashPay implements IPaymentMethod {
     private double cash;
