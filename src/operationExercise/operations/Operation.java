@@ -1,18 +1,18 @@
 package operationExercise.operations;
 
-import operationExercise.soldiers.interfaces.IAttackAble;
+import operationExercise.soldiers.interfaces.IAttackable;
 
 import java.util.ArrayList;
 
 public class Operation {
-    ArrayList<IAttackAble> soldiers;
+    ArrayList<IAttackable> soldiers;
 
-    public Operation(ArrayList<IAttackAble> soldiers) {
+    public Operation(ArrayList<IAttackable> soldiers) {
       this.soldiers = soldiers;
     }
 
     public void attack() {
-        for (IAttackAble soldier : soldiers) {
+        for (IAttackable soldier : soldiers) {
             soldier.attack();
         }
     }

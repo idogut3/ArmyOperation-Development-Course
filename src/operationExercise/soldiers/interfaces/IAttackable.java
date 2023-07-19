@@ -1,6 +1,6 @@
 package operationExercise.soldiers.interfaces;
 
-public interface IAttackAble {
+public interface IAttackable {
     void attack();
 
 }

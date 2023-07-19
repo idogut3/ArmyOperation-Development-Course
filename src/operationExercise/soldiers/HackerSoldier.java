@@ -1,8 +1,8 @@
 package operationExercise.soldiers;
 
-import operationExercise.soldiers.interfaces.IAttackAble;
+import operationExercise.soldiers.interfaces.IAttackable;
 
-public class HackerSoldier extends Soldier implements IAttackAble {
+public class HackerSoldier extends Soldier implements IAttackable {
 
     public HackerSoldier(String name, int age) {
         super(name, age);

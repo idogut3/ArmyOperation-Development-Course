@@ -1,6 +1,6 @@
 package operationExercise;
 
-import operationExercise.soldiers.interfaces.IAttackAble;
+import operationExercise.soldiers.interfaces.IAttackable;
 import operationExercise.operations.Operation;
 import operationExercise.soldiers.HackerSoldier;
 import operationExercise.soldiers.ResearchSoldier;
@@ -17,7 +17,7 @@ public class Main {
 
         ResearchSoldier researchSoldier = new ResearchSoldier("Yontan", 23);
 
-        ArrayList<IAttackAble> soldiers = new ArrayList<>(Arrays.asList(combatSoldier, hackerSoldier));
+        ArrayList<IAttackable> soldiers = new ArrayList<>(Arrays.asList(combatSoldier, hackerSoldier));
 
         Operation operation1 = new Operation(soldiers);
         operation1.attack();
