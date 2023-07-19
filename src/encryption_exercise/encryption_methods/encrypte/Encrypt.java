@@ -12,7 +12,7 @@ public class Encrypt {
     }
 
     public String encrypt(String encryptionMethodName, String password, int key) {
-        return encryptionFactory.getEncryption(encryptionMethodName).encrypt(password, key);
+        return encryptionFactory.getEncryption(encryptionMethodName).encrypt(password);
     }
 
     public void addEncryptionMethod(String encryptionMethodName, IEncryption iEncryption) {
