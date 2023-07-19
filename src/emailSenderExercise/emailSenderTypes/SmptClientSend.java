@@ -1,8 +1,8 @@
 package emailSenderExercise.emailSenderTypes;
 
-import emailSenderExercise.emailSenderTypes.senderInterface.ISendAble;
+import emailSenderExercise.emailSenderTypes.senderInterface.ISendable;
 
-public class SmptClientSend implements ISendAble {
+public class SmptClientSend implements ISendable {
 
 
     @Override

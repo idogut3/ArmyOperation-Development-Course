@@ -1,5 +1,5 @@
 package emailSenderExercise.emailSenderTypes.senderInterface;
 
-public interface ISendAble {
+public interface ISendable {
     public void send(String emailAddress, String message);
 }

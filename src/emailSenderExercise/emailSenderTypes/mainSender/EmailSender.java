@@ -1,11 +1,11 @@
 package emailSenderExercise.emailSenderTypes.mainSender;
 
-import emailSenderExercise.emailSenderTypes.senderInterface.ISendAble;
+import emailSenderExercise.emailSenderTypes.senderInterface.ISendable;
 
 public class EmailSender {
-    private ISendAble iSendAble;
+    private ISendable iSendAble;
 
-    public EmailSender(ISendAble iSendAble) {
+    public EmailSender(ISendable iSendAble) {
         this.iSendAble = iSendAble;
     }
 

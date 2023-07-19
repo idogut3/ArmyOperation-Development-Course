@@ -1,8 +1,8 @@
 package emailSenderExercise.emailSenderTypes;
 
-import emailSenderExercise.emailSenderTypes.senderInterface.ISendAble;
+import emailSenderExercise.emailSenderTypes.senderInterface.ISendable;
 
-public class MalikitClientSend implements ISendAble {
+public class MalikitClientSend implements ISendable {
 
 
     @Override
